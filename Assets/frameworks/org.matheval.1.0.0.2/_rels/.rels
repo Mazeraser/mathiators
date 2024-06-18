@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Relationships xmlns="http://schemas.openxmlformats.org/package/2006/relationships">
+  <Relationship Type="http://schemas.microsoft.com/packaging/2010/07/manifest" Target="/org.matheval.nuspec" Id="R34BC0C1F42338FC2" />
+  <Relationship Type="http://schemas.openxmlformats.org/package/2006/relationships/metadata/core-properties" Target="/package/services/metadata/core-properties/e63c35d2c88c4a9cbe842aad0343490f.psmdcp" Id="RB8A0A564A34EE0A3" />
+</Relationships>
