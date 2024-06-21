@@ -1,8 +1,8 @@
-﻿using Assets.Codebase.ExpressionGenerator;
+﻿using Assets.Codebase.Mechanics.ExpressionGenerator;
 using System.Collections;
 using UnityEngine;
 
-namespace Assets.Codebase.Character
+namespace Assets.Codebase.Mechanics.Character
 {
     public sealed class Enemy : Character_abstraction, IActive
     {

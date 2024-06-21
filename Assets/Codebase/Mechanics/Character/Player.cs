@@ -1,7 +1,7 @@
-﻿using Assets.Codebase.ExpressionGenerator;
+﻿using Assets.Codebase.Mechanics.ExpressionGenerator;
 using UnityEngine;
 
-namespace Assets.Codebase.Character
+namespace Assets.Codebase.Mechanics.Character
 {
     public sealed class Player : Character_abstraction, IActive
     {

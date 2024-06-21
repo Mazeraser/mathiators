@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Assets.Codebase.Character
+namespace Assets.Codebase.Mechanics.Character
 {
     public abstract class Character_abstraction : MonoBehaviour, ICharacter, ILive
     {

@@ -1,4 +1,4 @@
-namespace Assets.Codebase.Character
+namespace Assets.Codebase.Mechanics.Character
 {
     public interface ILive
     {

@@ -1,8 +1,9 @@
 ﻿using System;
 using UnityEngine;
 using org.matheval;
+using Assets.Codebase.Infrastructure;
 
-namespace Assets.Codebase.ExpressionGenerator
+namespace Assets.Codebase.Mechanics.ExpressionGenerator
 {
     public sealed class GameplayExpressionGenerator : MonoBehaviour
     {
@@ -29,6 +30,8 @@ namespace Assets.Codebase.ExpressionGenerator
             _generator = new MathExpressionGenerator(_expressionMinLength,_expressionMaxLength,_minNumber,_maxNumber);
 
             GenerateNewExpression();
+
+            GameplayService.UpdateExpressionEvent += CheckAnswer;
         }
 
         private void GenerateNewExpression()

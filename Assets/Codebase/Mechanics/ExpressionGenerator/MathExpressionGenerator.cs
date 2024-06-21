@@ -1,6 +1,6 @@
 using System;
 
-namespace Assets.Codebase.ExpressionGenerator
+namespace Assets.Codebase.Mechanics.ExpressionGenerator
 {
     public interface IGenerator<T>
     {
