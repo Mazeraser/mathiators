@@ -2,10 +2,13 @@ namespace Assets.Codebase.Mechanics.Character
 {
     public interface ILive
     {
-        int HP { get; set; }
+        int MaxHP { get; }
+        int CurrentHP {  get; set; }
+
+        int PermanentShield { get; }
+
         void TakeDamage(int damage);
         bool IsDead();
 
-        int PermanentShield { get; }
     }
 }

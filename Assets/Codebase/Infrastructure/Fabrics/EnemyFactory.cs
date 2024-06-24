@@ -9,13 +9,14 @@ namespace Assets.Codebase.Infrastructure.Fabrics
         private GameObject enemyPrefab;
 
         private GameObject _currentEnemy; //Gameobject needs to deleting from scenes
-        public ILive CurrentEnemy
+        public Enemy CurrentEnemy
         {
-            get { return _currentEnemy?.GetComponent<ILive>(); }
+            get { return _currentEnemy?.GetComponent<Enemy>(); }
         }
 
         public Enemy Create()
         {
+            Debug.Log("New enemy created");
             _currentEnemy = Instantiate(enemyPrefab);
 
             return _currentEnemy.GetComponent<Enemy>();
@@ -23,16 +24,17 @@ namespace Assets.Codebase.Infrastructure.Fabrics
 
         public void Remove()
         {
-            Destroy( _currentEnemy );
+            Destroy(_currentEnemy);
             _currentEnemy=null;
-
             Create();
         }
 
+        private void Start()
+        {
+            Create();
+        }
         private void Update()
         {
-            if (_currentEnemy == null)
-                Create();
             if (CurrentEnemy.IsDead())
                 Remove();
         }

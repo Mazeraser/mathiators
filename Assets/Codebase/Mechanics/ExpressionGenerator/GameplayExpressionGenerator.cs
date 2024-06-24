@@ -9,6 +9,7 @@ namespace Assets.Codebase.Mechanics.ExpressionGenerator
     {
         public static event Action RightAnswerEvent;
         public static event Action WrongAnswerEvent;
+        public static event Action<string> ExpressionGeneratedEvent;
 
         private MathExpressionGenerator _generator;
 
@@ -40,7 +41,7 @@ namespace Assets.Codebase.Mechanics.ExpressionGenerator
             var expression = _generator.GenerateExpression();
             _expression = new Expression(expression);
             if (_expression.Eval<double>() - _expression.Eval<int>() == 0)
-                Debug.Log(expression + " = " + _expression.Eval<int>());
+                ExpressionGeneratedEvent?.Invoke(expression);
             else
                 goto again;
         }

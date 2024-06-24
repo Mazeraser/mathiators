@@ -6,9 +6,12 @@ namespace Assets.Codebase.Infrastructure.Installers
 {
     public class EnemyFactoryInstaller : MonoInstaller
     {
+        [SerializeField]
+        private EnemyFactory _enemyFactoryPrefab;
+
         public override void InstallBindings()
         {
-            Container.BindInterfacesAndSelfTo<EnemyFactory>().FromNewComponentOnNewGameObject().AsSingle().NonLazy();
+            Container.BindInterfacesAndSelfTo<EnemyFactory>().FromComponentInNewPrefab(_enemyFactoryPrefab).AsSingle().NonLazy();
         }
     }
 }

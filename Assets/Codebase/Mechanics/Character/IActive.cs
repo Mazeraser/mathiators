@@ -2,6 +2,6 @@ namespace Assets.Codebase.Mechanics.Character
 {
     public interface IActive
     {
-        public void ChangeTarget(); //TODO: refactor(remove finding in scene)
+        public ILive FoundTarget(); //TODO: refactor(remove finding in scene)
     }
 }

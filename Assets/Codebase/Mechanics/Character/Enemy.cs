@@ -1,25 +1,26 @@
 ﻿using Assets.Codebase.Mechanics.ExpressionGenerator;
 using System.Collections;
+using UnityEditor;
 using UnityEngine;
 
 namespace Assets.Codebase.Mechanics.Character
 {
-    public sealed class Enemy : Character_abstraction, IActive
+    public sealed class Enemy : Character_abstraction
     {
 
         public override void Start()
         {
             base.Start();
-            GameplayExpressionGenerator.WrongAnswerEvent +=
-                delegate {
-                    Attack(_target);
-                };
-            ChangeTarget();
+            GameplayExpressionGenerator.WrongAnswerEvent += Attack;
+        }
+        private void OnDestroy()
+        {
+            GameplayExpressionGenerator.WrongAnswerEvent -= Attack;
         }
 
-        public void ChangeTarget()
+        public override ILive FoundTarget()
         {
-            _target = GameObject.FindWithTag("Player").GetComponent<ILive>();
+            return GameObject.FindWithTag("Player").GetComponent<ILive>();
         }
     }
 }

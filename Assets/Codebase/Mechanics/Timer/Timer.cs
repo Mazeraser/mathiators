@@ -1,5 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace Assets.Codebase.Mechanics.Timer
@@ -7,13 +5,18 @@ namespace Assets.Codebase.Mechanics.Timer
     public class Timer : MonoBehaviour, ITimer
     {
         [SerializeField]
-        [Range(4f,60f)]
+        [Range(4,60)]
         private float _decideTime;
 
         private float _timer;
         public float TimeRemaining
         {
-            get { return _timer; }
+            get { return Mathf.Round(_timer*10)/10;}
+        }
+
+        public float ProcentFilling
+        {
+            get { return Mathf.Lerp(0f, _decideTime, TimeRemaining); }
         }
 
         public bool TimeHasGone
@@ -23,15 +26,12 @@ namespace Assets.Codebase.Mechanics.Timer
 
         private void Start()
         {
-            _decideTime = _decideTime > 0 ? _decideTime : Random.Range(6f, 10f);
             _timer = _decideTime;
         }
 
         private void Update()
         {
             _timer -= Time.deltaTime;
-            if (TimeHasGone)
-                UpdateTimer();
         }
 
         public void UpdateTimer()

@@ -4,6 +4,6 @@ namespace Assets.Codebase.Mechanics.Character
     {
         int DP { get; set; }
 
-        public void Attack(ILive target);
+        public void Attack();
     }
 }
