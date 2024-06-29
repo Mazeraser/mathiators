@@ -31,8 +31,14 @@ namespace Assets.Codebase.Mechanics.ExpressionGenerator
             _generator = new MathExpressionGenerator(_expressionMinLength,_expressionMaxLength,_minNumber,_maxNumber);
 
             GenerateNewExpression();
-
+        }
+        private void Awake()
+        {
             GameplayService.UpdateExpressionEvent += CheckAnswer;
+        }
+        private void OnDestroy()
+        {
+            GameplayService.UpdateExpressionEvent -= CheckAnswer;
         }
 
         private void GenerateNewExpression()

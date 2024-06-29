@@ -45,3 +45,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   enemyPrefab: {fileID: 2050256428539466646, guid: 9ee0e1ddafbeec64c9091e53a456cf30, type: 3}
+  skins:
+  - {fileID: 9100000, guid: a23cc0f5fea334d448ead2127b0bd5c8, type: 2}
+  - {fileID: 9100000, guid: 0d3432cdc1f1b324085e5f6ec64adf57, type: 2}
+  - {fileID: 9100000, guid: 7ad20ade8059f724aa6540e93b0e3233, type: 2}
+  - {fileID: 9100000, guid: 1fc8dd6bb58612f499354609cf1f0a48, type: 2}

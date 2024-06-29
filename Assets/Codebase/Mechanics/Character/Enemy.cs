@@ -11,6 +11,7 @@ namespace Assets.Codebase.Mechanics.Character
         public override void Start()
         {
             base.Start();
+            transform.position = new Vector3(5, -2, 0);
             GameplayExpressionGenerator.WrongAnswerEvent += Attack;
         }
         private void OnDestroy()

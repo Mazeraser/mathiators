@@ -1,4 +1,5 @@
 using UnityEngine;
+using Assets.Codebase.UI.GameplayMenu;
 
 namespace Assets.Codebase.Mechanics.Timer
 {
@@ -7,6 +8,8 @@ namespace Assets.Codebase.Mechanics.Timer
         [SerializeField]
         [Range(4,60)]
         private float _decideTime;
+
+        private bool _isTurning;
 
         private float _timer;
         public float TimeRemaining
@@ -24,6 +27,14 @@ namespace Assets.Codebase.Mechanics.Timer
             get { return _timer <= 0; }
         }
 
+        private void Awake()
+        {
+            GameplayMenu.MenuModeChangedEvent += ChangeTimerMode;
+        }
+        private void OnDestroy()
+        {
+            GameplayMenu.MenuModeChangedEvent -= ChangeTimerMode;
+        }
         private void Start()
         {
             _timer = _decideTime;
@@ -31,12 +42,18 @@ namespace Assets.Codebase.Mechanics.Timer
 
         private void Update()
         {
-            _timer -= Time.deltaTime;
+            if(_isTurning)
+                _timer -= Time.deltaTime;
         }
 
         public void UpdateTimer()
         {
             _timer = _decideTime;
+        }
+
+        private void ChangeTimerMode(bool value)
+        {
+            _isTurning = value;
         }
     }
 }

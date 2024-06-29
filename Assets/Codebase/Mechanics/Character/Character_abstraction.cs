@@ -6,7 +6,7 @@ namespace Assets.Codebase.Mechanics.Character
 {
     public abstract class Character_abstraction : MonoBehaviour, ICharacter, ILive, IActive
     {
-        public static event Action<ILive, string> BornedEvent;
+        public static event Action<Character_abstraction, string> CharacteristicsUpdatedEvent;
 
         private const int MAX_HP = 20; //HP - health point
         private const int MAX_DP = 30; //DP - damage point
@@ -18,6 +18,20 @@ namespace Assets.Codebase.Mechanics.Character
         private int _dp;
         
         private int _ps;
+    
+        private enum CharacterState
+        {
+            idle = 0,
+            attack=1,
+            take_damage=2,
+            death=3,
+        }
+        private CharacterState _state;
+        public int StateIndex
+        {
+            get { return (int)_state; }
+            set { _state = (CharacterState)value; }
+        }
 
         public int MaxHP
         {
@@ -38,18 +52,49 @@ namespace Assets.Codebase.Mechanics.Character
             set { _dp = value; }
         }
 
-        public bool IsDead() { return GetComponent<ILive>().CurrentHP <= 0; }
+        public void SetCharacteristics(int[] characteristics)
+        {
+            _hp = characteristics[0];
+            _current_hp = _hp;
+            _dp = characteristics[1];
+            _ps = characteristics[2];
+
+            CharacteristicsUpdatedEvent?.Invoke(this, gameObject.tag);
+        }
+
+        public void LoadCharacteristics()
+        {
+            _hp = PlayerPrefs.GetInt("PlayerHP");
+            _current_hp = _hp;
+            _dp = PlayerPrefs.GetInt("PlayerDP");
+            _ps = PlayerPrefs.GetInt("PlayerPS");
+
+            CharacteristicsUpdatedEvent?.Invoke(this, gameObject.tag);
+        }
+
+        public bool IsDead() 
+        { 
+            if(GetComponent<ILive>().CurrentHP <= 0)
+            {
+
+                _state = CharacterState.death;
+                return true;
+            }
+            return false;
+        }
 
         public void TakeDamage(int damage)
         {
+            _state = CharacterState.take_damage;
             CurrentHP -= Mathf.Clamp(damage - PermanentShield, 1, MaxHP);
-            Debug.Log(gameObject.tag + " " + CurrentHP);
+            Debug.Log(name + "has been attacked");
         }
 
         public void Attack()
         {
-            //Debug.Log(tag+ " is attacking");
+            _state = CharacterState.attack;
             FoundTarget().TakeDamage(DP);
+            Debug.Log(name + "is attacking");
         }
 
         public virtual ILive FoundTarget()
@@ -89,6 +134,7 @@ namespace Assets.Codebase.Mechanics.Character
 
                 counter += val;
             }
+            CharacteristicsUpdatedEvent?.Invoke(this, gameObject.tag);
         }
 
         public virtual void Start()

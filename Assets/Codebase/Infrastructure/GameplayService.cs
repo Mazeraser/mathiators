@@ -12,7 +12,7 @@ namespace Assets.Codebase.Infrastructure
         public static event Action EndGameEvent;
         public static event Action<string> UpdateExpressionEvent;
 
-        public static int Balance_Points = 4;
+        public static int Balance_Points = 0;
 
         private Player _player;
         private ITimer _timer;
@@ -43,7 +43,7 @@ namespace Assets.Codebase.Infrastructure
 
             if (Input.GetKeyDown(KeyCode.Return))
                 SendAnswer();
-        }//TODO: Doing a few tasks, maybe need to refactor
+        }
 
         public void SendAnswer(string answer)
         {
