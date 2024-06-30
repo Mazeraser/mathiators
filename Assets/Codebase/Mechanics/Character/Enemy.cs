@@ -1,6 +1,4 @@
 ﻿using Assets.Codebase.Mechanics.ExpressionGenerator;
-using System.Collections;
-using UnityEditor;
 using UnityEngine;
 
 namespace Assets.Codebase.Mechanics.Character

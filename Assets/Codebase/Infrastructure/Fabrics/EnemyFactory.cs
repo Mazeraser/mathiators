@@ -1,6 +1,5 @@
 using Assets.Codebase.Mechanics.Character;
 using System;
-using UnityEditor.Animations;
 using UnityEngine;
 
 namespace Assets.Codebase.Infrastructure.Fabrics
@@ -13,7 +12,7 @@ namespace Assets.Codebase.Infrastructure.Fabrics
         private GameObject enemyPrefab;
 
         [SerializeField]
-        private AnimatorController[] skins;
+        private RuntimeAnimatorController[] skins;
 
         private GameObject _currentEnemy; //Gameobject needs to deleting from scenes
         public Enemy CurrentEnemy

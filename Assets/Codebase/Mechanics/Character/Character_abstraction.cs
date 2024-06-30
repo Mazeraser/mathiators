@@ -87,14 +87,12 @@ namespace Assets.Codebase.Mechanics.Character
         {
             _state = CharacterState.take_damage;
             CurrentHP -= Mathf.Clamp(damage - PermanentShield, 1, MaxHP);
-            Debug.Log(name + "has been attacked");
         }
 
         public void Attack()
         {
             _state = CharacterState.attack;
             FoundTarget().TakeDamage(DP);
-            Debug.Log(name + "is attacking");
         }
 
         public virtual ILive FoundTarget()
@@ -119,15 +117,15 @@ namespace Assets.Codebase.Mechanics.Character
                 switch (index)
                 {
                     case 0:
-                        val = UnityEngine.Random.Range(0, Mathf.Min(GameplayService.Balance_Points - counter, MAX_HP) + 1);
+                        val = UnityEngine.Random.Range(0, Mathf.Min(GameplayService.Balance_Points - counter, MAX_HP-MaxHP) + 1);
                         _hp += val;
                         break;
                     case 1:
-                        val = UnityEngine.Random.Range(0, Mathf.Min(GameplayService.Balance_Points - counter, MAX_DP) + 1);
+                        val = UnityEngine.Random.Range(0, Mathf.Min(GameplayService.Balance_Points - counter, MAX_DP-DP) + 1);
                         _dp += val;
                         break;
                     case 2:
-                        val = UnityEngine.Random.Range(0, Mathf.Min(GameplayService.Balance_Points - counter, MAX_PS) + 1);
+                        val = UnityEngine.Random.Range(0, Mathf.Min(GameplayService.Balance_Points - counter, MAX_PS-PermanentShield) + 1);
                         _ps += val;
                         break;
                 }

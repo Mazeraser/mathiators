@@ -1,9 +1,7 @@
 using UnityEngine;
 using TMPro;
-using Assets.Codebase.Infrastructure;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
-using UnityEditor.Animations;
 
 namespace Assets.Codebase.UI.MainMenu
 {
@@ -27,7 +25,7 @@ namespace Assets.Codebase.UI.MainMenu
         private Sprite[] _skins;
 
         [SerializeField]
-        private AnimatorController[] _animators;
+        private RuntimeAnimatorController[] _animators;
 
         private int _selected_index;
         private int SelectedIndex
@@ -88,6 +86,7 @@ namespace Assets.Codebase.UI.MainMenu
              PlayerPrefs.SetInt("PlayerHP", _characteristics[0]);
              PlayerPrefs.SetInt("PlayerDP", _characteristics[1]);
              PlayerPrefs.SetInt("PlayerPS", _characteristics[2]);
+
              _playerPrefab.GetComponent<Animator>().runtimeAnimatorController = _animators[_selected_index];
         }
 
