@@ -37,6 +37,8 @@ namespace Assets.Codebase.Mechanics.Timer
         }
         private void Start()
         {
+            if (PlayerPrefs.HasKey("DecideTime"))
+                _decideTime = PlayerPrefs.GetFloat("DecideTime");
             _timer = _decideTime;
         }
 

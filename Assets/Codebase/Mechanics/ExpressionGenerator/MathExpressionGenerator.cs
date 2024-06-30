@@ -9,18 +9,14 @@ namespace Assets.Codebase.Mechanics.ExpressionGenerator
     public class MathExpressionGenerator: IGenerator<string>
     {
         private readonly Random _random;
-        private readonly int _minNum;
-        private readonly int _maxNum;
         private readonly int _minLength;
         private readonly int _maxLength;
 
-        public MathExpressionGenerator(int minLength, int maxLength, int minNum, int maxNum)
+        public MathExpressionGenerator(int minLength, int maxLength)
         {
             _random = new Random();
             _minLength = minLength;
             _maxLength = maxLength;
-            _minNum = minNum;
-            _maxNum = maxNum;
         }
 
         public string GenerateExpression()
@@ -29,7 +25,7 @@ namespace Assets.Codebase.Mechanics.ExpressionGenerator
 
             for(int i = 0; i < _random.Next(_minLength,_maxLength+1); i++) 
             {
-                expression+=_random.Next(_minNum,_maxNum);
+                expression+=_random.Next(1,100);
                 expression+=GetRandomOperation();
             }
 

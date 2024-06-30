@@ -28,7 +28,15 @@ namespace Assets.Codebase.Mechanics.ExpressionGenerator
 
         private void Start()
         {
-            _generator = new MathExpressionGenerator(_expressionMinLength,_expressionMaxLength,_minNumber,_maxNumber);
+            if(PlayerPrefs.HasKey("Minimal number"))
+            {
+                _expressionMinLength = PlayerPrefs.GetInt("Minimal expression length");
+                _expressionMaxLength = PlayerPrefs.GetInt("Maximum expression length");
+                _minNumber = PlayerPrefs.GetInt("Minimal number");
+                _maxNumber = PlayerPrefs.GetInt("Maximum number");
+            }
+
+            _generator = new MathExpressionGenerator(_expressionMinLength,_expressionMaxLength);
 
             GenerateNewExpression();
         }
@@ -46,7 +54,10 @@ namespace Assets.Codebase.Mechanics.ExpressionGenerator
         again:
             var expression = _generator.GenerateExpression();
             _expression = new Expression(expression);
-            if (_expression.Eval<double>() - _expression.Eval<int>() == 0)
+            if (
+                _expression.Eval<double>() - _expression.Eval<int>() == 0
+                && (_expression.Eval<int>()>=_minNumber&& _expression.Eval<int>()<=_maxNumber)
+                )
                 ExpressionGeneratedEvent?.Invoke(expression);
             else
                 goto again;
