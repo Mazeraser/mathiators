@@ -10,28 +10,29 @@ namespace Assets.Codebase.UI.GameplayMenu
 {
     public class GameoverMenu : MonoBehaviour
     {
+        private Fade _fade;
+
         private Player _player;
 
         [Inject]
-        private void Construct(Player player)
+        private void Construct(Player player, Fade fade)
         {
             _player = player;
+            _fade = fade;
         }
 
         private void ActivateMenu()
         {
-            GetComponent<Image>().enabled = true;
-            for (int i = 0; i < transform.childCount; i++)
-                transform.GetChild(i).gameObject.SetActive(true);
+            _fade.FadeIn(2f, GetComponent<CanvasGroup>());
         }
 
         public void Restart()
         {
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+            _fade.ChangeScene(SceneManager.GetActiveScene().buildIndex);
         }
-        public void ToMenu(int index)
+        public void ToMenu()
         {
-            SceneManager.LoadScene(index);
+            _fade.ChangeScene(1);
         }
 
         private void Update()

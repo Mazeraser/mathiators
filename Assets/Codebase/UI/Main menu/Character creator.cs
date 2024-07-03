@@ -2,6 +2,7 @@ using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Zenject;
 
 namespace Assets.Codebase.UI.MainMenu
 {
@@ -90,11 +91,9 @@ namespace Assets.Codebase.UI.MainMenu
              _playerPrefab.GetComponent<Animator>().runtimeAnimatorController = _animators[_selected_index];
         }
 
-        public void ToGame(int index)
+        public void ToGame()
         {
             SaveCharacteristics();
-
-            SceneManager.LoadScene(index);
         }
     }
 }
