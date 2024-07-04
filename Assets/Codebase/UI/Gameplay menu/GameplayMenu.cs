@@ -35,6 +35,17 @@ namespace Assets.Codebase.UI.GameplayMenu
 
             MenuModeChangedEvent?.Invoke(!_isActive);
         }
+        public void change_menu_mode(bool value)
+        {
+            _isActive = value;
+
+            if (_isActive)
+                _fade.FadeIn(_fadeDuration, GetComponent<CanvasGroup>());
+            else
+                _fade.FadeOut(_fadeDuration, GetComponent<CanvasGroup>());
+
+            MenuModeChangedEvent?.Invoke(!_isActive);
+        }
 
         private void Start()
         {
@@ -45,7 +56,7 @@ namespace Assets.Codebase.UI.GameplayMenu
         {
             if(Input.GetKeyDown(KeyCode.Escape))
             {
-                change_menu_mode(!_isActive, _fadeDuration);
+                change_menu_mode(!_isActive);
             }
         }
 

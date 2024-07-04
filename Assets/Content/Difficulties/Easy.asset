@@ -9,11 +9,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 93cd57eafa6bd2046ba00166346ed4c7, type: 3}
+  m_Script: {fileID: 11500000, guid: c55dd2d268f0f38479838ae5f28e650d, type: 3}
   m_Name: Easy
   m_EditorClassIdentifier: 
   MinimalExpressionLength: 2
   MaximalExpressionLength: 3
   MinimalNumber: 10
-  MaximumNumber: 200
-  DecideTime: 6
+  MaximumNumber: 100
+  DecideTime: 5

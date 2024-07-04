@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3462835438921803827}
-  - component: {fileID: 6233855918210556081}
+  - component: {fileID: 4119439629983840373}
   m_Layer: 0
   m_Name: EnemyFabricInstaller
   m_TagString: Untagged
@@ -32,7 +32,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6233855918210556081
+--- !u!114 &4119439629983840373
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -41,7 +41,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 8563456040920415472}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2db5c0d46a931d544af3500347ce2eda, type: 3}
+  m_Script: {fileID: 11500000, guid: d4db6dee143480e4ca6a9ce43c746419, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _enemyFactoryPrefab: {fileID: 4604460037254143656, guid: 77e131316cc5e144f9ebe3e5707c1737, type: 3}
+  _enemyFactoryPrefab: {fileID: 4604460037254143656, guid: ed5e1360c0c4c6b4ebd04e76ac9f847c, type: 3}

@@ -8,9 +8,12 @@ namespace Assets.Codebase.UI
     {
         private Tween fadeTween;
 
+        [SerializeField]
+        private int _startScene;
+
         private void Start()
         {
-            ChangeScene(1);
+            ChangeScene(_startScene);
             DontDestroyOnLoad(gameObject);
         }
 

@@ -41,12 +41,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 2517863137688698918}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 09e18f85b71a6844aaf3b3f18cdf898d, type: 3}
+  m_Script: {fileID: 11500000, guid: 18806ce701bb8fb40918b39f00494975, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  enemyPrefab: {fileID: 2050256428539466646, guid: 9ee0e1ddafbeec64c9091e53a456cf30, type: 3}
+  enemyPrefab: {fileID: 2050256428539466646, guid: 4e373358d3289c9409666dff99faa63b, type: 3}
   skins:
-  - {fileID: 9100000, guid: a23cc0f5fea334d448ead2127b0bd5c8, type: 2}
-  - {fileID: 9100000, guid: 0d3432cdc1f1b324085e5f6ec64adf57, type: 2}
-  - {fileID: 9100000, guid: 7ad20ade8059f724aa6540e93b0e3233, type: 2}
-  - {fileID: 9100000, guid: 1fc8dd6bb58612f499354609cf1f0a48, type: 2}
+  - {fileID: 9100000, guid: ed815ee7808e0f04bbcdf3b38ab7e993, type: 2}
+  - {fileID: 9100000, guid: 9c550d1fd75f2774982927f747148707, type: 2}
+  - {fileID: 9100000, guid: 217d50d65c0a2ce448e7b45de5c05465, type: 2}
+  - {fileID: 9100000, guid: e6d3fbd3a963b0642af12f7576bd6cda, type: 2}

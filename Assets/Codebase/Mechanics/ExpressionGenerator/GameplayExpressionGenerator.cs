@@ -1,7 +1,7 @@
 ﻿using System;
 using UnityEngine;
-using org.matheval;
 using Assets.Codebase.Infrastructure;
+using System.Data;
 
 namespace Assets.Codebase.Mechanics.ExpressionGenerator
 {
@@ -24,7 +24,7 @@ namespace Assets.Codebase.Mechanics.ExpressionGenerator
         [SerializeField]
         private int _maxNumber;
 
-        private Expression _expression;
+        private int _expression;
 
         private void Start()
         {
@@ -53,10 +53,10 @@ namespace Assets.Codebase.Mechanics.ExpressionGenerator
         {
         again:
             var expression = _generator.GenerateExpression();
-            _expression = new Expression(expression);
+            _expression = Convert.ToInt32(new DataTable().Compute(expression,null));
             if (
-                _expression.Eval<double>() - _expression.Eval<int>() == 0
-                && (_expression.Eval<int>()>=_minNumber&& _expression.Eval<int>()<=_maxNumber)
+                Convert.ToDouble(new DataTable().Compute(expression, null)) - Convert.ToInt32(new DataTable().Compute(expression, null)) == 0
+                && (_expression>=_minNumber&& _expression<=_maxNumber)
                 )
                 ExpressionGeneratedEvent?.Invoke(expression);
             else
@@ -65,8 +65,7 @@ namespace Assets.Codebase.Mechanics.ExpressionGenerator
 
         public void CheckAnswer(string value)
         {
-            Expression answer = new Expression(value);
-            if (answer.Eval<int>() == _expression.Eval<int>())
+            if (Convert.ToInt32(new DataTable().Compute(value, null)) == _expression)
                 RightAnswerEvent?.Invoke();
             else
                 WrongAnswerEvent?.Invoke();

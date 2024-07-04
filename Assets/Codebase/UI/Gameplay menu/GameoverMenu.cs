@@ -23,7 +23,7 @@ namespace Assets.Codebase.UI.GameplayMenu
 
         private void ActivateMenu()
         {
-            _fade.FadeIn(2f, GetComponent<CanvasGroup>());
+            _fade.FadeIn(0.1f, GetComponent<CanvasGroup>());
         }
 
         public void Restart()
