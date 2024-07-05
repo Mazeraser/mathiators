@@ -30,11 +30,23 @@ namespace Assets.Codebase.UI.MainMenu
         private void SetDescription()
         {
             _description.text = "";
-            _description.text += "Minimal expression length: " + difficulty.MinimalExpressionLength+"\n";
-            _description.text += "Maximal expression length: " + difficulty.MaximalExpressionLength+"\n";
-            _description.text += "Minimal number(obtained in expression): " + difficulty.MinimalNumber+"\n";
-            _description.text += "Maximal number(obtained in expression): " + difficulty.MaximumNumber+"\n";
-            _description.text += "Time for decision: " + difficulty.DecideTime+" seconds\n";
+            switch (PlayerPrefs.GetInt("LanguageIndex"))
+            {
+                case 0:
+                    _description.text += "Minimal expression length: " + difficulty.MinimalExpressionLength+"\n";
+                    _description.text += "Maximal expression length: " + difficulty.MaximalExpressionLength+"\n";
+                    _description.text += "Minimal number(obtained in expression): " + difficulty.MinimalNumber+"\n";
+                    _description.text += "Maximal number(obtained in expression): " + difficulty.MaximumNumber+"\n";
+                    _description.text += "Time for decision: " + difficulty.DecideTime+" seconds\n";
+                    break;
+                case 1:
+                    _description.text += "Минимальная длина примера: " + difficulty.MinimalExpressionLength + "\n";
+                    _description.text += "Максимальная длина примерв: " + difficulty.MaximalExpressionLength + "\n";
+                    _description.text += "Минимальное число(получаемое из выражения): " + difficulty.MinimalNumber + "\n";
+                    _description.text += "Максимальное число(получаемое из выражения " + difficulty.MaximumNumber + "\n";
+                    _description.text += "Время на решение: " + difficulty.DecideTime + " секунд\n";
+                    break;
+            }
         }
 
         private void Start()

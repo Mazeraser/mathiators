@@ -83,7 +83,7 @@ namespace Assets.Codebase.UI.GameplayMenu
             ClearTransform(container.PS.transform);
             FillCharacteristicField(character.PermanentShield, ps, container.PS.transform);
         }
-        private void SetScore(int score) => _scoreField.text = "Killed enemy score: " + score.ToString();
+        private void SetScore(int score) => _scoreField.text = score.ToString();
 
         private void ClearTransform(Transform obj)
         {

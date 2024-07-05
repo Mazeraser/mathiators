@@ -40,10 +40,16 @@ namespace Assets.Codebase.UI.MainMenu
 
         private void Start()
         {
+            LanguageService.LanguageChangedEvent += UpdateBalanceText;
+
             SelectedIndex = 0;
 
             _characteristics = new int[3];
             LoadCharacteristics();
+        }
+        private void OnDestroy()
+        {
+            LanguageService.LanguageChangedEvent -= UpdateBalanceText;
         }
         private void Update()
         {
@@ -51,8 +57,9 @@ namespace Assets.Codebase.UI.MainMenu
             {
                 _characteristic_field[i].text = _characteristics[i].ToString();
             }
-            _balance_field.text = "Balance points: " + (_characteristics[0]+_characteristics[1]+_characteristics[2]).ToString();
         }
+
+        private void UpdateBalanceText(int language_index) => _balance_field.text = _balance_field.text + ": " + (_characteristics[0] + _characteristics[1] + _characteristics[2]).ToString();
 
         public void plus_characteristic(int index)
         {

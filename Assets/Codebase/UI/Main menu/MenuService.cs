@@ -22,7 +22,7 @@ namespace Assets.Codebase.UI.MainMenu
 
         private void Start()
         {
-            score_field.text = "Best score: " + (PlayerPrefs.HasKey("HighScore") ? PlayerPrefs.GetInt("HighScore").ToString() : "0");
+            LanguageService.LanguageChangedEvent += UpdateScoreText;
         }
 
         public void ActivateBlock(CanvasGroup canvasGroup)
@@ -35,6 +35,8 @@ namespace Assets.Codebase.UI.MainMenu
             canvasGroup.blocksRaycasts = false;
             _fade.FadeOut(_durationTime, canvasGroup);
         }
+
+        private void UpdateScoreText(int language_index) => score_field.text = score_field.text + ": " + (PlayerPrefs.HasKey("HighScore") ? PlayerPrefs.GetInt("HighScore").ToString() : "0");
 
         public void ToGame() => _fade.ChangeScene(2);
         public void QuitGame() => Application.Quit();
