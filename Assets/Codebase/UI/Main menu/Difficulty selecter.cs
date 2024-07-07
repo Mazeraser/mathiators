@@ -41,9 +41,9 @@ namespace Assets.Codebase.UI.MainMenu
                     break;
                 case 1:
                     _description.text += "Минимальная длина примера: " + difficulty.MinimalExpressionLength + "\n";
-                    _description.text += "Максимальная длина примерв: " + difficulty.MaximalExpressionLength + "\n";
+                    _description.text += "Максимальная длина примеров: " + difficulty.MaximalExpressionLength + "\n";
                     _description.text += "Минимальное число(получаемое из выражения): " + difficulty.MinimalNumber + "\n";
-                    _description.text += "Максимальное число(получаемое из выражения " + difficulty.MaximumNumber + "\n";
+                    _description.text += "Максимальное число(получаемое из выражения) " + difficulty.MaximumNumber + "\n";
                     _description.text += "Время на решение: " + difficulty.DecideTime + " секунд\n";
                     break;
             }

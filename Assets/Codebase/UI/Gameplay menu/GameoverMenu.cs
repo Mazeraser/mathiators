@@ -23,6 +23,8 @@ namespace Assets.Codebase.UI.GameplayMenu
 
         private void ActivateMenu()
         {
+            GetComponent<CanvasGroup>().blocksRaycasts = true;
+            Cursor.visible = true;
             _fade.FadeIn(0.1f, GetComponent<CanvasGroup>());
         }
 

@@ -27,6 +27,8 @@ namespace Assets.Codebase.UI.GameplayMenu
         public void change_menu_mode(bool value, float time)
         {
             _isActive = value;
+            GetComponent<CanvasGroup>().blocksRaycasts = value;
+            Cursor.visible = value;
 
             if (_isActive)
                 _fade.FadeIn(time, GetComponent<CanvasGroup>());
@@ -38,6 +40,8 @@ namespace Assets.Codebase.UI.GameplayMenu
         public void change_menu_mode(bool value)
         {
             _isActive = value;
+            GetComponent<CanvasGroup>().blocksRaycasts = value;
+            Cursor.visible = value;
 
             if (_isActive)
                 _fade.FadeIn(_fadeDuration, GetComponent<CanvasGroup>());
