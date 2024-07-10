@@ -13,7 +13,8 @@ namespace Assets.Codebase.UI
 
         private void Start()
         {
-            ChangeScene(_startScene);
+            if(SceneManager.GetActiveScene().buildIndex!=_startScene)
+                ChangeScene(_startScene);
             DontDestroyOnLoad(gameObject);
         }
 

@@ -8,8 +8,8 @@ namespace Assets.Codebase.UI.MainMenu
     public class MenuService : MonoBehaviour
     {
 
-        [DllImport(("_Internal"))]
-        private static extern void LoadData();
+        /*[DllImport(("__Internal"))]
+        private static extern void LoadData();*/
 
         private Fade _fade;
 
@@ -29,7 +29,7 @@ namespace Assets.Codebase.UI.MainMenu
         {
             LanguageService.LanguageChangedEvent += UpdateScoreText;
 
-            LoadData();
+            //LoadData();
         }
 
         public void ActivateBlock(CanvasGroup canvasGroup)

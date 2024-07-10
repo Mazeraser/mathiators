@@ -8,8 +8,8 @@ namespace Assets.Codebase.Mechanics.EnemyScore
 {
     public class EnemyScore : MonoBehaviour
     {
-        [DllImport(("_Internal"))]
-        private static extern void SaveData(int score);
+        /*[DllImport(("__Internal"))]
+        private static extern void SaveData(int score);*/
 
         private int _score;
         public int Score
@@ -46,7 +46,7 @@ namespace Assets.Codebase.Mechanics.EnemyScore
         private void UpdatePlayerPrefs()
         {
             PlayerPrefs.SetInt("HighScore", _highScore);
-            SaveData(_highScore);
+            //SaveData(_highScore);
         }
         private void RaiseScore()
         {
