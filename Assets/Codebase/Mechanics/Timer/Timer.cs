@@ -9,7 +9,7 @@ namespace Assets.Codebase.Mechanics.Timer
         [Range(4,60)]
         private float _decideTime;
 
-        private bool _isTurning;
+        private bool _isTurning=false;
 
         private float _timer;
         public float TimeRemaining
@@ -40,6 +40,7 @@ namespace Assets.Codebase.Mechanics.Timer
             if (PlayerPrefs.HasKey("DecideTime"))
                 _decideTime = PlayerPrefs.GetFloat("DecideTime");
             _timer = _decideTime;
+            //StartTimer();
         }
 
         private void Update()
@@ -48,6 +49,10 @@ namespace Assets.Codebase.Mechanics.Timer
                 _timer -= Time.deltaTime;
         }
 
+        public void StartTimer()
+        {
+            _isTurning = true;
+        }
         public void UpdateTimer()
         {
             _timer = _decideTime;

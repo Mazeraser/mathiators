@@ -1,4 +1,5 @@
-﻿using Assets.Codebase.Mechanics.Character;
+﻿using System.Runtime.InteropServices;
+using Assets.Codebase.Mechanics.Character;
 using Assets.Codebase.Mechanics.Timer;
 using UnityEngine;
 using Zenject;
@@ -9,6 +10,9 @@ namespace Assets.Codebase.Infrastructure
 {
     public class GameplayService : MonoBehaviour
     {
+        [DllImport("__Internal")]
+        private static extern void ShowStartAdv();
+
         public static event Action EndGameEvent;
         public static event Action<string> UpdateExpressionEvent;
 
@@ -28,6 +32,10 @@ namespace Assets.Codebase.Infrastructure
             _timer = timer;
         }
 
+        private void Start()
+        {
+            ShowStartAdv();
+        }
         private void Update()
         {
             if (_player.GetComponent<ILive>().IsDead())

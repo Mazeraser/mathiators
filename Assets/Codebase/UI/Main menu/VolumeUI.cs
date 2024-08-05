@@ -24,7 +24,23 @@ namespace Assets.Codebase.UI.MainMenu
         [SerializeField]
         private Image music_icon;
 
-        private bool has_music;
+        private bool has_music=true;
+
+        void Start()
+        {
+            if (PlayerPrefs.HasKey("HasMusic"))
+                has_music = PlayerPrefs.GetInt("HasMusic")==1;
+            
+            if(PlayerPrefs.HasKey("MasterVolume"))
+                SetSliders();
+            UpdateMasterVolume(masterSlider);
+            UpdateMusicVolume(musicSlider);
+            UpdateSFXVolume(sfxSlider);
+        }
+        private void Update()
+        {
+            music_icon.sprite = has_music ? music : music_no;
+        }
 
         // called at the start of the game
         // set the slider values to be the saved volume settings
@@ -34,61 +50,34 @@ namespace Assets.Codebase.UI.MainMenu
             sfxSlider.value = PlayerPrefs.GetFloat("SFXVolume");
             musicSlider.value = PlayerPrefs.GetFloat("MusicVolume");
         }
-
-        void Start()
-        {
-            has_music = true;
-            // do we have saved volume player prefs?
-            if (PlayerPrefs.HasKey("MasterVolume"))
-            {
-                // set the mixer volume levels based on the saved player prefs
-                mixer.SetFloat("MasterVolume", PlayerPrefs.GetFloat("MasterVolume"));
-                mixer.SetFloat("SFXVolume", PlayerPrefs.GetFloat("SFXVolume"));
-                mixer.SetFloat("MusicVolume", PlayerPrefs.GetFloat("MusicVolume"));
-                SetSliders();
-            }
-            // otherwise just set the sliders
-            else
-            {
-                SetSliders();
-            }
-        }
-        private void Update()
-        {
-            music_icon.sprite = has_music ? music : music_no;
-        }
-
         // called when we update the master slider
-        public void UpdateMasterVolume()
+        public void UpdateMasterVolume(Slider slider)
         {
-            float volume=Mathf.Lerp(0.0001f,1f,masterSlider.value/masterSlider.maxValue);
-            volume=Mathf.Log10(volume)*20;
-
-            mixer.SetFloat("MasterVolume", masterSlider.value);
-            PlayerPrefs.SetFloat("MasterVolume", masterSlider.value);
+            mixer.SetFloat("MasterVolume", has_music ? convert_volume(slider.value) : -80);
+            PlayerPrefs.SetFloat("MasterVolume", slider.value);
         }
         // called when we update the sfx slider
-        public void UpdateSFXVolume()
+        public void UpdateSFXVolume(Slider slider)
         {
-            float volume=Mathf.Lerp(0.0001f,1f,masterSlider.value/sfxSlider.maxValue);
-            volume=Mathf.Log10(volume)*20;
-            
-            mixer.SetFloat("SFXVolume", sfxSlider.value);
-            PlayerPrefs.SetFloat("SFXVolume", sfxSlider.value);
+            mixer.SetFloat("SFXVolume", convert_volume(slider.value));
+            PlayerPrefs.SetFloat("SFXVolume", slider.value);
         }
         // called when we update the music slider
-        public void UpdateMusicVolume()
+        public void UpdateMusicVolume(Slider slider)
         {
-            float volume=has_music ? musicSlider.value : -80;
-            
-            mixer.SetFloat("MusicVolume", volume);
-            PlayerPrefs.SetFloat("MusicVolume", musicSlider.value);
+            mixer.SetFloat("MusicVolume", convert_volume(slider.value));
+            PlayerPrefs.SetFloat("MusicVolume", slider.value);
+        }
+        private float convert_volume(float volume)
+        {
+            return Mathf.Log10(volume) * 20;
         }
 
         public void TurnOffMusic()
         {
             has_music = !has_music;
-            UpdateMusicVolume();
+            PlayerPrefs.SetInt("HasMusic", has_music?1:0);
+            UpdateMasterVolume(musicSlider);
         }
     }
 }

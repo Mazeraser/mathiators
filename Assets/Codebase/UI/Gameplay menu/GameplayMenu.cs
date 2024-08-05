@@ -53,7 +53,7 @@ namespace Assets.Codebase.UI.GameplayMenu
 
         private void Start()
         {
-            change_menu_mode(false, 0f);
+            //change_menu_mode(false, 0f);
         }
 
         private void Update()
