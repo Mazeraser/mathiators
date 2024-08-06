@@ -652,7 +652,6 @@ ScriptedImporter:
     cells:
     - name: unforgiven_soul_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -661,7 +660,6 @@ ScriptedImporter:
       spriteId: dc1d3350dc147864aa60d65719ebb394
     - name: unforgiven_soul_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -670,7 +668,6 @@ ScriptedImporter:
       spriteId: a4ebf69b272841f439d01d6038f0abf6
     - name: unforgiven_soul_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -679,7 +676,6 @@ ScriptedImporter:
       spriteId: 6dcf296f83ecd1c4d8521d3c79b3415e
     - name: unforgiven_soul_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -688,7 +684,6 @@ ScriptedImporter:
       spriteId: 71ad4c0b94dd30c49a648867a4bf6100
     - name: unforgiven_soul_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -697,7 +692,6 @@ ScriptedImporter:
       spriteId: ec4abd1d3703c404692b582b3cc0d11e
     - name: unforgiven_soul_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -706,7 +700,6 @@ ScriptedImporter:
       spriteId: d1679e540de703e4a8bf4ae6840e7b05
     - name: unforgiven_soul_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -715,7 +708,6 @@ ScriptedImporter:
       spriteId: 10360245017de8441b998e0a82e9b44e
     - name: unforgiven_soul_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -724,7 +716,6 @@ ScriptedImporter:
       spriteId: 33dc7e1e6e442cf459be15fcda8b097f
     - name: unforgiven_soul_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -733,7 +724,6 @@ ScriptedImporter:
       spriteId: 06161591f2cf8be4db35570da0205e06
     - name: unforgiven_soul_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -742,7 +732,6 @@ ScriptedImporter:
       spriteId: 95e29d93ace12d4439c7dbfb5aea78e6
     - name: unforgiven_soul_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -751,7 +740,6 @@ ScriptedImporter:
       spriteId: f2ac940787312744bb896d1133969700
     - name: unforgiven_soul_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -760,7 +748,6 @@ ScriptedImporter:
       spriteId: 362353060a2d3ef40a364fff2518c5e9
     - name: unforgiven_soul_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -769,7 +756,6 @@ ScriptedImporter:
       spriteId: 5da0e1486c4e8564c99e2692fd5b15d7
     - name: unforgiven_soul_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -778,7 +764,6 @@ ScriptedImporter:
       spriteId: 7c7b0d0676d0d5a4086b3f8a7de434de
     - name: unforgiven_soul_Frame_14
       frameIndex: 14
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -787,7 +772,6 @@ ScriptedImporter:
       spriteId: b6729d2bbb4acc74883a292683f95bb2
     - name: unforgiven_soul_Frame_15
       frameIndex: 15
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -796,7 +780,6 @@ ScriptedImporter:
       spriteId: 7d9d2d0494cff1b4380e8e5c90bb9379
     - name: unforgiven_soul_Frame_16
       frameIndex: 16
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -805,7 +788,6 @@ ScriptedImporter:
       spriteId: 532c39226b5fc8a499378ea6819366e2
     - name: unforgiven_soul_Frame_17
       frameIndex: 17
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -814,7 +796,6 @@ ScriptedImporter:
       spriteId: 7c6a73632f73db34cbba3482ae2b14a1
     - name: unforgiven_soul_Frame_18
       frameIndex: 18
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -823,7 +804,6 @@ ScriptedImporter:
       spriteId: e2031342d0c612e41bb50e727455dee4
     - name: unforgiven_soul_Frame_19
       frameIndex: 19
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -832,7 +812,6 @@ ScriptedImporter:
       spriteId: 8e4754cc5e7f2d7468e98b2c73c676cf
     - name: unforgiven_soul_Frame_20
       frameIndex: 20
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 0
@@ -841,7 +820,6 @@ ScriptedImporter:
       spriteId: 13f264ed717772742a4de61db565fa8f
     - name: unforgiven_soul_Frame_21
       frameIndex: 21
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 1
@@ -850,7 +828,6 @@ ScriptedImporter:
       spriteId: 5e1cb1d2585e87743bfecd9d865bd21c
     - name: unforgiven_soul_Frame_22
       frameIndex: 22
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 1
@@ -859,7 +836,6 @@ ScriptedImporter:
       spriteId: 4d2ee00f72c71f14481d209e557d5eb5
     - name: unforgiven_soul_Frame_23
       frameIndex: 23
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 2
@@ -868,7 +844,6 @@ ScriptedImporter:
       spriteId: e5a8ca3690444d64d8b5da10d13bb986
     - name: unforgiven_soul_Frame_24
       frameIndex: 24
-      additiveSortOrder: 0
       cellRect:
         x: 8
         y: 2
@@ -877,7 +852,6 @@ ScriptedImporter:
       spriteId: 96d0246d545e66b4488bc8396e42f0ac
     - name: unforgiven_soul_Frame_25
       frameIndex: 25
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 1

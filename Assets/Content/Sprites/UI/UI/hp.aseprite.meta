@@ -172,7 +172,6 @@ ScriptedImporter:
     cells:
     - name: hp_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 3
@@ -181,7 +180,6 @@ ScriptedImporter:
       spriteId: 88ff57a7ba079294abcaa1c14e3eb409
     - name: hp_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 3

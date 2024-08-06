@@ -5,6 +5,7 @@ using UnityEngine;
 using Zenject;
 using System;
 using TMPro;
+using Assets.Codebase.UI;
 
 namespace Assets.Codebase.Infrastructure
 {
@@ -34,7 +35,8 @@ namespace Assets.Codebase.Infrastructure
 
         private void Start()
         {
-            ShowStartAdv();
+            ShowStartAdv(); //yandexs
+            MusicSingletone.Instance.StopMusic();
         }
         private void Update()
         {
