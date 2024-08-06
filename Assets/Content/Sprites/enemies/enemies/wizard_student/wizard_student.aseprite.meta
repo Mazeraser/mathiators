@@ -592,7 +592,6 @@ ScriptedImporter:
     cells:
     - name: wizard_student_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -601,7 +600,6 @@ ScriptedImporter:
       spriteId: 8c8deb0b02a5fb444bd07703a14308f5
     - name: wizard_student_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -610,7 +608,6 @@ ScriptedImporter:
       spriteId: 5e98a5af118ea074cb3657672ce5b0ac
     - name: wizard_student_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -619,7 +616,6 @@ ScriptedImporter:
       spriteId: 5362955aff48b9b44b70af87c62156a7
     - name: wizard_student_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -628,7 +624,6 @@ ScriptedImporter:
       spriteId: b10e21050f0500d46894efed28ac4074
     - name: wizard_student_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -637,7 +632,6 @@ ScriptedImporter:
       spriteId: 0cab2f3431bf4a94fabdefd86183227f
     - name: wizard_student_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -646,7 +640,6 @@ ScriptedImporter:
       spriteId: c23490445e5aac940b1aabb7536adc25
     - name: wizard_student_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -655,7 +648,6 @@ ScriptedImporter:
       spriteId: 9301ec86d763a084aada10b906792a00
     - name: wizard_student_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -664,7 +656,6 @@ ScriptedImporter:
       spriteId: 92445076594c5a242b71f61c60e39f1c
     - name: wizard_student_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -673,7 +664,6 @@ ScriptedImporter:
       spriteId: aaec1a7b998f82a4a9f909f2ff8ddf72
     - name: wizard_student_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -682,7 +672,6 @@ ScriptedImporter:
       spriteId: 069b113763d0f9c49afbbd8c7abf0eb8
     - name: wizard_student_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -691,7 +680,6 @@ ScriptedImporter:
       spriteId: c4c0e4aa714f920479f53b7172df292c
     - name: wizard_student_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -700,7 +688,6 @@ ScriptedImporter:
       spriteId: 55339b4afb5c2fb47bb6c3ccf173a0e7
     - name: wizard_student_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -709,7 +696,6 @@ ScriptedImporter:
       spriteId: a607e08c1e62fd64c863e30fd84e531e
     - name: wizard_student_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -718,7 +704,6 @@ ScriptedImporter:
       spriteId: 7cfd55f350971424a91eb32546dca1c4
     - name: wizard_student_Frame_14
       frameIndex: 14
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -727,7 +712,6 @@ ScriptedImporter:
       spriteId: bb96d6bbb82f4634cb67ac89a7d2bd93
     - name: wizard_student_Frame_15
       frameIndex: 15
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -736,7 +720,6 @@ ScriptedImporter:
       spriteId: 0f044fd44a303fb46bcaba9eddcbc138
     - name: wizard_student_Frame_16
       frameIndex: 16
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -745,7 +728,6 @@ ScriptedImporter:
       spriteId: c258cbe46109f184b891f9485cd10d46
     - name: wizard_student_Frame_17
       frameIndex: 17
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -754,7 +736,6 @@ ScriptedImporter:
       spriteId: 733edf3c8882e6d4f8bc83d6b7468f6d
     - name: wizard_student_Frame_18
       frameIndex: 18
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -763,7 +744,6 @@ ScriptedImporter:
       spriteId: 14ea48b5b00d2ea4082d6ec8776f6d58
     - name: wizard_student_Frame_19
       frameIndex: 19
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -772,7 +752,6 @@ ScriptedImporter:
       spriteId: a4d0c51fe5e58ed4c92390f118a9bb78
     - name: wizard_student_Frame_20
       frameIndex: 20
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -781,7 +760,6 @@ ScriptedImporter:
       spriteId: 60f981b07be76ad458e545a699bc1fd9
     - name: wizard_student_Frame_21
       frameIndex: 21
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -790,7 +768,6 @@ ScriptedImporter:
       spriteId: 2561a4bab4de4624c84d24838e143091
     - name: wizard_student_Frame_22
       frameIndex: 22
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

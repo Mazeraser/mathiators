@@ -592,7 +592,6 @@ ScriptedImporter:
     cells:
     - name: magician_bandit_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -601,7 +600,6 @@ ScriptedImporter:
       spriteId: 4695860eb9bf7824082138b5f5c29b67
     - name: magician_bandit_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -610,7 +608,6 @@ ScriptedImporter:
       spriteId: 0ffd222e98714c649a8ae08983957495
     - name: magician_bandit_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -619,7 +616,6 @@ ScriptedImporter:
       spriteId: b4345a25b5be1c44782e4df609b7deb5
     - name: magician_bandit_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -628,7 +624,6 @@ ScriptedImporter:
       spriteId: 90a2f7171cd95e644a61c8196460d8a6
     - name: magician_bandit_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -637,7 +632,6 @@ ScriptedImporter:
       spriteId: 08aec3bedf0244b4da2dd281e30a0944
     - name: magician_bandit_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -646,7 +640,6 @@ ScriptedImporter:
       spriteId: 435b98c8a762e964795edbb24cd8c370
     - name: magician_bandit_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -655,7 +648,6 @@ ScriptedImporter:
       spriteId: 34f6fc7f07f6b834c93aa55c1c735838
     - name: magician_bandit_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -664,7 +656,6 @@ ScriptedImporter:
       spriteId: e0e5ab79e72abc248a35fa7e507d1811
     - name: magician_bandit_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -673,7 +664,6 @@ ScriptedImporter:
       spriteId: 15fde985a22025049988f300a0d25c3d
     - name: magician_bandit_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -682,7 +672,6 @@ ScriptedImporter:
       spriteId: cd28da09bc55b334ba252f20bfefe461
     - name: magician_bandit_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -691,7 +680,6 @@ ScriptedImporter:
       spriteId: 545679f5a06361445935b7b36c7cf648
     - name: magician_bandit_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -700,7 +688,6 @@ ScriptedImporter:
       spriteId: 351b7a9a1120b1b4d83b70b8146dfc45
     - name: magician_bandit_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -709,7 +696,6 @@ ScriptedImporter:
       spriteId: 50149752ba278df499be787cb01bce97
     - name: magician_bandit_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -718,7 +704,6 @@ ScriptedImporter:
       spriteId: c14dc86f6c38e694094bf72b40992507
     - name: magician_bandit_Frame_14
       frameIndex: 14
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -727,7 +712,6 @@ ScriptedImporter:
       spriteId: 62b3e43f49bfedc4da54dba2b57ccf18
     - name: magician_bandit_Frame_15
       frameIndex: 15
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -736,7 +720,6 @@ ScriptedImporter:
       spriteId: 5dc5be59f58b8de4a99d85e25c3cd4b8
     - name: magician_bandit_Frame_16
       frameIndex: 16
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -745,7 +728,6 @@ ScriptedImporter:
       spriteId: 6d9057ab0f088644ea6a84ec9dcc13d5
     - name: magician_bandit_Frame_17
       frameIndex: 17
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -754,7 +736,6 @@ ScriptedImporter:
       spriteId: 5b12f39cfaf1b7640ba78a91d02eefc4
     - name: magician_bandit_Frame_18
       frameIndex: 18
-      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
@@ -763,7 +744,6 @@ ScriptedImporter:
       spriteId: f2d230ecab5a634418abf364987f1fe4
     - name: magician_bandit_Frame_19
       frameIndex: 19
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -772,7 +752,6 @@ ScriptedImporter:
       spriteId: f1410929edc7fae4b9d0a0efa0f88d27
     - name: magician_bandit_Frame_20
       frameIndex: 20
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -781,7 +760,6 @@ ScriptedImporter:
       spriteId: d3ca2b6b7819e34488710479849ef8bc
     - name: magician_bandit_Frame_21
       frameIndex: 21
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -790,7 +768,6 @@ ScriptedImporter:
       spriteId: 22080c786d42c19499e3bd2a9cf289ef
     - name: magician_bandit_Frame_22
       frameIndex: 22
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0

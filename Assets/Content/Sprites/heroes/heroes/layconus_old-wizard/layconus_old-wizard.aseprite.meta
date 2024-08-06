@@ -552,7 +552,6 @@ ScriptedImporter:
     cells:
     - name: layconus_old-wizard_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -561,7 +560,6 @@ ScriptedImporter:
       spriteId: bcda7418684d96146bd3ad808e8b2b34
     - name: layconus_old-wizard_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -570,7 +568,6 @@ ScriptedImporter:
       spriteId: 7115eed477a4c2b45af53b71b735834b
     - name: layconus_old-wizard_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -579,7 +576,6 @@ ScriptedImporter:
       spriteId: 209d192deea79f84f88c67ef46ebbbf3
     - name: layconus_old-wizard_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -588,7 +584,6 @@ ScriptedImporter:
       spriteId: f41cf4ea5ac16ac439c0facd98e10707
     - name: layconus_old-wizard_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -597,7 +592,6 @@ ScriptedImporter:
       spriteId: c7037dbc59c709045b0fb70d42c30ad3
     - name: layconus_old-wizard_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -606,7 +600,6 @@ ScriptedImporter:
       spriteId: 338de10d39edb724eb20b7ed97aeb679
     - name: layconus_old-wizard_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -615,7 +608,6 @@ ScriptedImporter:
       spriteId: 93a8460a420ee0f4da4015f8d3ed9f5f
     - name: layconus_old-wizard_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -624,7 +616,6 @@ ScriptedImporter:
       spriteId: 5f8ed0bc1dc4c8541b80513fe6d2ad34
     - name: layconus_old-wizard_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -633,7 +624,6 @@ ScriptedImporter:
       spriteId: 808fe275b91ceb94e842ccf1bcd9c4f0
     - name: layconus_old-wizard_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -642,7 +632,6 @@ ScriptedImporter:
       spriteId: ce573173c7aaf1043ae3a4177f50e11b
     - name: layconus_old-wizard_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -651,7 +640,6 @@ ScriptedImporter:
       spriteId: 95d3242cd0d207740853a29e081256c9
     - name: layconus_old-wizard_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -660,7 +648,6 @@ ScriptedImporter:
       spriteId: 988ed3100059c46408db67e486b32023
     - name: layconus_old-wizard_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -669,7 +656,6 @@ ScriptedImporter:
       spriteId: 131039d967ddd9b4dbb8032df0de9adb
     - name: layconus_old-wizard_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -678,7 +664,6 @@ ScriptedImporter:
       spriteId: c846633e63997b645a49da549cbb5ba6
     - name: layconus_old-wizard_Frame_14
       frameIndex: 14
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -687,7 +672,6 @@ ScriptedImporter:
       spriteId: 2a2f1f1bd361a424494b0bf9af4c8b88
     - name: layconus_old-wizard_Frame_15
       frameIndex: 15
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -696,7 +680,6 @@ ScriptedImporter:
       spriteId: c3b03192faf249d4085b41d1cc94719b
     - name: layconus_old-wizard_Frame_16
       frameIndex: 16
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -705,7 +688,6 @@ ScriptedImporter:
       spriteId: 56b03ea84ecee3b42ab0ef5f7e98ceef
     - name: layconus_old-wizard_Frame_17
       frameIndex: 17
-      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
@@ -714,7 +696,6 @@ ScriptedImporter:
       spriteId: 1e5ad147cee18f542a10c86eac0cc9c1
     - name: layconus_old-wizard_Frame_18
       frameIndex: 18
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -723,7 +704,6 @@ ScriptedImporter:
       spriteId: e8e49379c4f760b4884b82757946e600
     - name: layconus_old-wizard_Frame_19
       frameIndex: 19
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -732,7 +712,6 @@ ScriptedImporter:
       spriteId: 0e6bce50bbd5bce4fb454bd951b9456e
     - name: layconus_old-wizard_Frame_20
       frameIndex: 20
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0

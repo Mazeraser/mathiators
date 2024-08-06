@@ -592,7 +592,6 @@ ScriptedImporter:
     cells:
     - name: hire_killer_Frame_0
       frameIndex: 0
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -601,7 +600,6 @@ ScriptedImporter:
       spriteId: 5bcc6199d9550774fb7e276acda8852a
     - name: hire_killer_Frame_1
       frameIndex: 1
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -610,7 +608,6 @@ ScriptedImporter:
       spriteId: a4a8c2aa3237188409bdf34fe27e3c13
     - name: hire_killer_Frame_2
       frameIndex: 2
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -619,7 +616,6 @@ ScriptedImporter:
       spriteId: 1c815754f0bd97c45a61badd5f3b7e69
     - name: hire_killer_Frame_3
       frameIndex: 3
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -628,7 +624,6 @@ ScriptedImporter:
       spriteId: 9ee5daff638ed4645a4d689108b3e367
     - name: hire_killer_Frame_4
       frameIndex: 4
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -637,7 +632,6 @@ ScriptedImporter:
       spriteId: d6a1220be23511f4ab9f0ca834cb246a
     - name: hire_killer_Frame_5
       frameIndex: 5
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -646,7 +640,6 @@ ScriptedImporter:
       spriteId: cb1d84b7002087e4cb2ffa3b3605bf82
     - name: hire_killer_Frame_6
       frameIndex: 6
-      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
@@ -655,7 +648,6 @@ ScriptedImporter:
       spriteId: f67322046658a4e4686e4da7019df94e
     - name: hire_killer_Frame_7
       frameIndex: 7
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -664,7 +656,6 @@ ScriptedImporter:
       spriteId: df7cb620869273a498bcbc743b9bd973
     - name: hire_killer_Frame_8
       frameIndex: 8
-      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
@@ -673,7 +664,6 @@ ScriptedImporter:
       spriteId: 3c71e03dfa534f94287085b75c0ebff8
     - name: hire_killer_Frame_9
       frameIndex: 9
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -682,7 +672,6 @@ ScriptedImporter:
       spriteId: 68782af299c4271448020d3ce07f321e
     - name: hire_killer_Frame_10
       frameIndex: 10
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -691,7 +680,6 @@ ScriptedImporter:
       spriteId: b2b29d93687645d47af25a4e98b75cc3
     - name: hire_killer_Frame_11
       frameIndex: 11
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -700,7 +688,6 @@ ScriptedImporter:
       spriteId: 24c1654ff66aae8428f793cdd8af8c80
     - name: hire_killer_Frame_12
       frameIndex: 12
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -709,7 +696,6 @@ ScriptedImporter:
       spriteId: 64aacc96a01ba8b45b4b225241799f5f
     - name: hire_killer_Frame_13
       frameIndex: 13
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -718,7 +704,6 @@ ScriptedImporter:
       spriteId: 078cac73706510445ae58e78b737920a
     - name: hire_killer_Frame_14
       frameIndex: 14
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -727,7 +712,6 @@ ScriptedImporter:
       spriteId: 49ec6b2974bf1b8419a86583d1142485
     - name: hire_killer_Frame_15
       frameIndex: 15
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -736,7 +720,6 @@ ScriptedImporter:
       spriteId: 4a9baf5e63165234ab57a9c887f26f9f
     - name: hire_killer_Frame_16
       frameIndex: 16
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -745,7 +728,6 @@ ScriptedImporter:
       spriteId: 883085bb6f2115f4ca063a16684087b7
     - name: hire_killer_Frame_17
       frameIndex: 17
-      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
@@ -754,7 +736,6 @@ ScriptedImporter:
       spriteId: 1fc23792401402f4094c8dec472b32c9
     - name: hire_killer_Frame_18
       frameIndex: 18
-      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
@@ -763,7 +744,6 @@ ScriptedImporter:
       spriteId: abd0d21a83840e4498b87e427e8d45a2
     - name: hire_killer_Frame_19
       frameIndex: 19
-      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
@@ -772,7 +752,6 @@ ScriptedImporter:
       spriteId: 26b6f28b956eb2140b96d63ed061435d
     - name: hire_killer_Frame_20
       frameIndex: 20
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -781,7 +760,6 @@ ScriptedImporter:
       spriteId: d659bc7bdb5923e43bfedfd1d06a18f1
     - name: hire_killer_Frame_21
       frameIndex: 21
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
@@ -790,7 +768,6 @@ ScriptedImporter:
       spriteId: 82010d56314f28a4aabcb86eb2b217c2
     - name: hire_killer_Frame_22
       frameIndex: 22
-      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
