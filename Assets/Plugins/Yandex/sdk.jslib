@@ -3,7 +3,8 @@ mergeInto(LibraryManager.library, {
     ysdk.adv.showFullscreenAdv({
     callbacks: {
         onClose: function(wasShown) {
-          SendMessage(myGameInstance, "StartTimer");
+          console.log('Ad was shown');
+          myGameInstance.SendMessage('Timer(Clone)', 'StartTimer');
         },
         onError: function(error) {
           

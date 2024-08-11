@@ -1,5 +1,6 @@
 using UnityEngine;
 using Assets.Codebase.UI.GameplayMenu;
+using Assets.Codebase.UI;
 
 namespace Assets.Codebase.Mechanics.Timer
 {
@@ -40,7 +41,7 @@ namespace Assets.Codebase.Mechanics.Timer
             if (PlayerPrefs.HasKey("DecideTime"))
                 _decideTime = PlayerPrefs.GetFloat("DecideTime");
             _timer = _decideTime;
-            //StartTimer();
+            //StartTimer();//non yandex
         }
 
         private void Update()
@@ -52,6 +53,7 @@ namespace Assets.Codebase.Mechanics.Timer
         public void StartTimer()
         {
             _isTurning = true;
+            MusicSingletone.Instance.ReturnMusic();
         }
         public void UpdateTimer()
         {

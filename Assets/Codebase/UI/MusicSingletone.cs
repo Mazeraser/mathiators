@@ -39,5 +39,8 @@ namespace Assets.Codebase.UI
             Debug.Log("Playing");
             _musicSource.Play();
         }
+
+        public void ReturnMusic() => _musicSource.Play();
+        public void StopMusic() => _musicSource.Pause();
     }
 }
