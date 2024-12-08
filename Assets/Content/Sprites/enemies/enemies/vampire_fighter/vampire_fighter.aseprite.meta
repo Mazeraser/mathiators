@@ -550,168 +550,189 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: vampire_fighter_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 13
       spriteId: 9b0d8f515dfc435469332d429d631bee
-    - name: vampire_fighter_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 12
       spriteId: 7e2bc1c95dd4f99499029cd77b0327d0
-    - name: vampire_fighter_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 13
       spriteId: 1ff0d37635c7b904d81947fe0e37d6c6
-    - name: vampire_fighter_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 12
       spriteId: 5a3c82949cc6ee8489f0a7c8cfa41b7b
-    - name: vampire_fighter_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 13
       spriteId: 40026a48ef225054eb65584dc79adfa7
-    - name: vampire_fighter_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 13
       spriteId: 1ce42b5ea4862e3479390c942d2782ff
-    - name: vampire_fighter_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 13
       spriteId: e89f53b007d9d6b48b9b9e4899a62001
-    - name: vampire_fighter_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 14
         height: 13
       spriteId: c2b366c9a5a80184eba2cc65e48913f5
-    - name: vampire_fighter_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 15
         height: 13
       spriteId: f9af0276ad8f8c8449fded08348f44b4
-    - name: vampire_fighter_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 15
         height: 13
       spriteId: 41edd2199f753f84c9ac33b0204f640d
-    - name: vampire_fighter_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 13
       spriteId: 0dacdc923eecac747bf128b3fd135fac
-    - name: vampire_fighter_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 13
       spriteId: 7c4fbaffbf5d0574ba7ee8f2c187a65c
-    - name: vampire_fighter_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 12
       spriteId: b27b9c73874f6da45b6992c708cc9273
-    - name: vampire_fighter_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 12
       spriteId: 5994b701ecf74b64ca962c7f6d861f25
-    - name: vampire_fighter_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 12
       spriteId: c7c1874d6d922864ea44c918ce8fa9fe
-    - name: vampire_fighter_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 13
       spriteId: 87a0f05d64977ca499f468b20513559e
-    - name: vampire_fighter_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 13
       spriteId: 094dc3b1059d0f345a7fc878237a5da6
-    - name: vampire_fighter_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 9
         height: 11
       spriteId: 22670b22c6f5c07488313a5957b55524
-    - name: vampire_fighter_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 10
         height: 11
       spriteId: 994d8aa589295b947b92f0d9c86b6263
-    - name: vampire_fighter_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
         width: 11
         height: 11
       spriteId: 3c045b2cdfc24e246845b2a61ac442dd
-    - name: vampire_fighter_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0

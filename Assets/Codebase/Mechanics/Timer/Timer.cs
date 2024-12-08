@@ -41,7 +41,7 @@ namespace Assets.Codebase.Mechanics.Timer
             if (PlayerPrefs.HasKey("DecideTime"))
                 _decideTime = PlayerPrefs.GetFloat("DecideTime");
             _timer = _decideTime;
-            //StartTimer();//non yandex
+            StartTimer();
         }
 
         private void Update()

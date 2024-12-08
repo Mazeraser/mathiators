@@ -530,160 +530,180 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: alanaya_fairy_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 2
         width: 12
         height: 13
       spriteId: 87a2491b79aa18645bfeb513457e4d2a
-    - name: alanaya_fairy_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 1
         width: 12
         height: 13
       spriteId: 2d9f0ef403ded2443a4d11cf93b70cb1
-    - name: alanaya_fairy_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 1
         width: 11
         height: 14
       spriteId: 25f5d72d46465ae449abd65f1f529f23
-    - name: alanaya_fairy_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 2
         width: 12
         height: 13
       spriteId: 59ee8a25561fbd843b62d886e150ab4c
-    - name: alanaya_fairy_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 2
         width: 10
         height: 13
       spriteId: d98a6cacfc6ceca498213dc36a840a38
-    - name: alanaya_fairy_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 1
         width: 11
         height: 13
       spriteId: 0e65a178492d13045a1a96552e88eff8
-    - name: alanaya_fairy_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 1
         width: 13
         height: 14
       spriteId: 1df9ef28670a3c541b600f44b7da20de
-    - name: alanaya_fairy_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 2
         width: 15
         height: 13
       spriteId: ef98030a185314143add70b9febbcbed
-    - name: alanaya_fairy_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 2
         width: 11
         height: 13
       spriteId: 49220386a84d2c04292eeeac1b92b411
-    - name: alanaya_fairy_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 2
         width: 11
         height: 13
       spriteId: 3289b36354d6b7144a662d439abdedcd
-    - name: alanaya_fairy_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 1
         width: 9
         height: 14
       spriteId: 98ab8030e458cd14d9f79099c10d992c
-    - name: alanaya_fairy_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 1
         width: 9
         height: 14
       spriteId: a18999d356509874087efb5a5957c02b
-    - name: alanaya_fairy_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 1
         width: 9
         height: 14
       spriteId: f5e193e82125f574193ca92ef72afc0e
-    - name: alanaya_fairy_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 2
         width: 11
         height: 13
       spriteId: 5d3389bc5eab8bb449ea05af72f6ae87
-    - name: alanaya_fairy_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 2
         width: 11
         height: 13
       spriteId: 1bf8233e1c867974faa6d6e00212685f
-    - name: alanaya_fairy_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 1
         width: 10
         height: 14
       spriteId: d5bea6da8958f97408f1daa7ef509e2a
-    - name: alanaya_fairy_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 10
         height: 13
       spriteId: 11ae22b388b1d0b4880c82db83f231c0
-    - name: alanaya_fairy_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 10
         height: 13
       spriteId: c27a921ddc8cd6e43b6ec6c8af321a6f
-    - name: alanaya_fairy_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 11
         height: 13
       spriteId: 3d815145faa116d46ac03da467725d61
-    - name: alanaya_fairy_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0

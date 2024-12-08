@@ -550,168 +550,189 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: drebnen_dwarf_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 9
         height: 12
       spriteId: 3d1274819e934714e93b492833c440cc
-    - name: drebnen_dwarf_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 9
         height: 11
       spriteId: 264f7bdbfb669ea4d9eed613386dba20
-    - name: drebnen_dwarf_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 9
         height: 12
       spriteId: 23d139fcd563d684292582158586f1be
-    - name: drebnen_dwarf_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 9
         height: 11
       spriteId: a9f54de8b4bb7ec40a7836db8852bbbc
-    - name: drebnen_dwarf_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 9
         height: 12
       spriteId: 4742d3c889045d949bc81e4afbe70661
-    - name: drebnen_dwarf_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 9
         height: 12
       spriteId: 9352780f8e1471b49af7428e81cb2ba7
-    - name: drebnen_dwarf_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 12
         height: 12
       spriteId: 472108aa86d33214e809b1e5783ea735
-    - name: drebnen_dwarf_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 13
         height: 12
       spriteId: 2ad39978173c5e54181382abc69f7dbf
-    - name: drebnen_dwarf_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 14
         height: 12
       spriteId: f82103904fe826341a019c1c3da10658
-    - name: drebnen_dwarf_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 15
         height: 12
       spriteId: 419f67001519322409db67c726ecba75
-    - name: drebnen_dwarf_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 9
         height: 12
       spriteId: cc1a840ce2a870c4bb3d4976112529a6
-    - name: drebnen_dwarf_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 9
         height: 12
       spriteId: bfc562c4a7c046749a3cab0768e9ddd6
-    - name: drebnen_dwarf_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 9
         height: 12
       spriteId: 83314e47679520d40b591a00942499eb
-    - name: drebnen_dwarf_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 9
         height: 12
       spriteId: 6f509a6c46ed4d24da1d44e26f746ac6
-    - name: drebnen_dwarf_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 9
         height: 12
       spriteId: a84ac932902208d45925cf37c9fd9cfe
-    - name: drebnen_dwarf_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 9
         height: 12
       spriteId: 4c2326550957c294ca24f53faf1ba0e1
-    - name: drebnen_dwarf_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 9
         height: 12
       spriteId: 7b03010dd22a9114d8aaca6e4b2920f8
-    - name: drebnen_dwarf_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 9
         height: 11
       spriteId: 18d46b105857b704ebb998cd1ffb35ad
-    - name: drebnen_dwarf_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 9
         height: 11
       spriteId: d00d7139c388e484e88a95400241a66e
-    - name: drebnen_dwarf_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
         width: 10
         height: 11
       spriteId: a4d82d4160e7f304d8e1ad106fa7d3c1
-    - name: drebnen_dwarf_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0

@@ -590,184 +590,207 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: magician_self-taught_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 14
       spriteId: 5d94a8bcfecb5464a824853e1b710a81
-    - name: magician_self-taught_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 13
       spriteId: 515c9d3502f02814bbd70e2edab94cf4
-    - name: magician_self-taught_Frame_2
+    - name: Frame_2
       frameIndex: 2
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 14
       spriteId: de2126d822ac2164b9629bbe9996913f
-    - name: magician_self-taught_Frame_3
+    - name: Frame_3
       frameIndex: 3
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 13
       spriteId: 9d56e9f00c1d3204aaa31aa2985ab1dc
-    - name: magician_self-taught_Frame_4
+    - name: Frame_4
       frameIndex: 4
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 14
       spriteId: 3cdb9ffdd3044da4b8760328d90ea9d6
-    - name: magician_self-taught_Frame_5
+    - name: Frame_5
       frameIndex: 5
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 14
       spriteId: 9c0f6fbdedae62e4789182d75d3f9f9b
-    - name: magician_self-taught_Frame_6
+    - name: Frame_6
       frameIndex: 6
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 9
         height: 14
       spriteId: 1329b3623d245d141945802c702b8127
-    - name: magician_self-taught_Frame_7
+    - name: Frame_7
       frameIndex: 7
+      additiveSortOrder: 0
       cellRect:
         x: 3
         y: 0
         width: 12
         height: 15
       spriteId: 9587b64ff26483b4fb6e07aa38748373
-    - name: magician_self-taught_Frame_8
+    - name: Frame_8
       frameIndex: 8
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 0
         width: 13
         height: 15
       spriteId: 06678e407a7c7664cab3bc01133e40e8
-    - name: magician_self-taught_Frame_9
+    - name: Frame_9
       frameIndex: 9
+      additiveSortOrder: 0
       cellRect:
         x: 1
         y: 0
         width: 14
         height: 14
       spriteId: 15be89e93de50a046a440df0b1a9bbfa
-    - name: magician_self-taught_Frame_10
+    - name: Frame_10
       frameIndex: 10
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 14
       spriteId: 20466872268964c429f72fda68e46778
-    - name: magician_self-taught_Frame_11
+    - name: Frame_11
       frameIndex: 11
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 16
         height: 14
       spriteId: d933d7f2120caeb41a020c6dd2182d46
-    - name: magician_self-taught_Frame_12
+    - name: Frame_12
       frameIndex: 12
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 14
       spriteId: 822dbeaedff083242b7b5dcedc0e6b89
-    - name: magician_self-taught_Frame_13
+    - name: Frame_13
       frameIndex: 13
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 14
       spriteId: 0d0a26d983647bb4c954c0b44e3f5fae
-    - name: magician_self-taught_Frame_14
+    - name: Frame_14
       frameIndex: 14
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 13
       spriteId: 957fb1086441b944cb42f004fe3300ee
-    - name: magician_self-taught_Frame_15
+    - name: Frame_15
       frameIndex: 15
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 13
       spriteId: 19fffe2f38357e44d8df0276a74a3a39
-    - name: magician_self-taught_Frame_16
+    - name: Frame_16
       frameIndex: 16
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 13
       spriteId: 883026b18780dd74c9669f04b629feb2
-    - name: magician_self-taught_Frame_17
+    - name: Frame_17
       frameIndex: 17
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 14
       spriteId: 449d11457e2a7e04d9d93296ee87d55c
-    - name: magician_self-taught_Frame_18
+    - name: Frame_18
       frameIndex: 18
+      additiveSortOrder: 0
       cellRect:
         x: 7
         y: 0
         width: 9
         height: 14
       spriteId: 729e6f9dbe386844b8a45feca8807be0
-    - name: magician_self-taught_Frame_19
+    - name: Frame_19
       frameIndex: 19
+      additiveSortOrder: 0
       cellRect:
         x: 6
         y: 0
         width: 9
         height: 12
       spriteId: 04658e345a12588479a4ca37d51f03ac
-    - name: magician_self-taught_Frame_20
+    - name: Frame_20
       frameIndex: 20
+      additiveSortOrder: 0
       cellRect:
         x: 5
         y: 0
         width: 10
         height: 12
       spriteId: ab4961e9201086d4b88af19408f51285
-    - name: magician_self-taught_Frame_21
+    - name: Frame_21
       frameIndex: 21
+      additiveSortOrder: 0
       cellRect:
         x: 4
         y: 0
         width: 10
         height: 12
       spriteId: 603be0a8bd1dede499080c1a414f7e5c
-    - name: magician_self-taught_Frame_22
+    - name: Frame_22
       frameIndex: 22
+      additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0

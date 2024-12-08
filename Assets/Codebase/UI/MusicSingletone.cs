@@ -25,11 +25,11 @@ namespace Assets.Codebase.UI
             DontDestroyOnLoad(gameObject);
 
             _musicSource = GetComponent<AudioSource>();
+            
+            SetMusic();
         }
         private void Update()
         {
-            if (!_musicSource.isPlaying)
-                SetMusic();
         }
 
         private void SetMusic()

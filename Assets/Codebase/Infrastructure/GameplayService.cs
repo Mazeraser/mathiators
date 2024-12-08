@@ -11,8 +11,6 @@ namespace Assets.Codebase.Infrastructure
 {
     public class GameplayService : MonoBehaviour
     {
-        [DllImport("__Internal")]
-        private static extern void ShowStartAdv();
 
         public static event Action EndGameEvent;
         public static event Action<string> UpdateExpressionEvent;
@@ -33,11 +31,6 @@ namespace Assets.Codebase.Infrastructure
             _timer = timer;
         }
 
-        private void Start()
-        {
-            ShowStartAdv(); //yandexs
-            MusicSingletone.Instance.StopMusic();
-        }
         private void Update()
         {
             if (_player.GetComponent<ILive>().IsDead())

@@ -170,16 +170,18 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: exp_Frame_0
+    - name: Frame_0
       frameIndex: 0
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 1
         width: 12
         height: 12
       spriteId: da2a2824d14988d47ae7908390b40149
-    - name: exp_Frame_1
+    - name: Frame_1
       frameIndex: 1
+      additiveSortOrder: 0
       cellRect:
         x: 2
         y: 1
